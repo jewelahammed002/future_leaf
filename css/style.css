@@ -1,0 +1,61 @@
+.navbar{
+  border-bottom: 3px solid white;
+  background: #292b2c;
+}
+
+body{
+	background: #187212;
+	color: #fff;
+}
+
+#home-section{
+	background: url('../img/home.jpg') no-repeat center top;
+	background-size: cover;
+	min-height: 700px;
+	background-attachment: fixed;}
+
+	#home-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.2);
+    min-height: 700px; }
+	
+	#home-section .fa {
+    background: #fff;
+    color: green;
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 5px; }
+
+	#home-section .home-inner{
+		padding: 150px 0;}
+
+#about-main-section .fa{
+	font-size: 30px;
+ 	background: #333;
+ 	color: green;
+  	padding: 4px;
+  	border-radius: 5px; 
+}
+#blog-head-section{
+  border-bottom: 3px solid white;
+}
+#blog-main-section{
+  border-bottom: 3px solid white;
+}
+
+#blog-main-section .fa {
+  font-size: 30px;
+  color: green;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px; }
+
+  #share-main-section .fa {
+  font-size: 30px;
+  color: green;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px; }
+
+@media (max-width: 768px) {
+  #home-section h1 {
+    font-size: 36px; } }		
